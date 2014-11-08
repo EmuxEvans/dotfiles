@@ -1,0 +1,18 @@
+alias ... "cd ../../"
+alias .... "cd ../../../"
+alias ..... "cd ../../../../"
+alias rm "rm -i"
+alias cp "cp -i"
+alias mv "mv -i"
+alias fy "fanyi"
+alias s "subl"
+
+# git alias
+alias g "git"
+alias ga "git add"
+alias gc "git commit -v"
+alias gc! "git commit -v --amend"
+alias gp "git push"
+alias gl "git pull"
+alias gcm "git checkout master"
+alias gst "git status"

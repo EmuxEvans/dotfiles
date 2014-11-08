@@ -1,0 +1,20 @@
+[user]
+	email = dd19941105@gmail.com
+	name = JIANG Di
+[alias]
+    cl = clone
+    throw = reset --hard HEAD
+    throwh = reset --hard HEAD^
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=3600
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = subl -n -w
+[push]
+	default = simple
+[merge]
+	tool = vimdiff
+[commit]
+	template = ~/.gitmessage
