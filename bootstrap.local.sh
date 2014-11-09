@@ -32,7 +32,7 @@ if ! command -v fcitx >/dev/null; then
 fi
 
 
-fancy_echo "installing Sublime text 3, an awesome text editor..."
+fancy_echo "installing Sublime text 3..."
 	sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 	sudo apt-get update
 	sudo apt-get install -y sublime-text-installer

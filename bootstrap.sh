@@ -28,15 +28,15 @@ fancy_echo "Installing libraries for common gem dependencies..."
 
 
 # install source control tools
-fancy_echo "Installing git for source control management..."
+fancy_echo "Installing git..."
   sudo apt-get install -y git
 
-fancy_echo "Installing tig, a text-mode interface for Git..."
+fancy_echo "Installing tig..."
   sudo apt-get install -y tig
 
 
 # install databases
-fancy_echo "Installing sqlite3, for prototyping database-backed rails apps"
+fancy_echo "Installing sqlite3..."
   sudo apt-get install -y libsqlite3-dev sqlite3
 
 fancy_echo "Installing MySQL..."
@@ -44,19 +44,19 @@ fancy_echo "Installing MySQL..."
 
 
 # install common tools
-fancy_echo "Installing tmux, to save project state and switch between projects..."
+fancy_echo "Installing tmux..."
   sudo apt-get install -y tmux
 
-fancy_echo "Installing ImageMagick, to crop and resize images..."
+fancy_echo "Installing ImageMagick..."
   sudo apt-get install -y imagemagick
 
-fancy_echo "Installing watch, to execute a program periodically and show the output..."
+fancy_echo "Installing watch..."
   sudo apt-get install -y watch
 
 fancy_echo "Installing curl..."
   sudo apt-get install -y curl
 
-fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files..."
+fancy_echo "Installing The Silver Searcher..."
   sudo apt-get install -y silversearcher-ag
 
 fancy_echo "Installing rar..."
@@ -94,9 +94,9 @@ if [[ ! -d "$HOME/.oh-my-fish" ]]; then
 fi
 
 if [[ ! -d "$HOME/.dotfiles" ]]; then
-fancy_echo "restore dotfiles..."
-  git clone git@github.com:dd1994/dotfiles.git ~/.dotfiles
-  rcup
+  fancy_echo "restore dotfiles..."
+    git clone git@github.com:dd1994/dotfiles.git ~/.dotfiles
+    rcup
 fi
 
 if [[ ! -d "$HOME/.ssh" ]]; then
@@ -123,7 +123,7 @@ if [[ ! -d "$HOME/.rbenv/plugins/ruby-build" ]]; then
 fi
 
 if [[ ! -d "$HOME/.rbenv/plugins/rbenv-gem-rehash" ]]; then
-  fancy_echo "Installing rbenv-gem-rehash so the shell automatically picks up binaries after installing gems with binaries..."
+  fancy_echo "Installing rbenv-gem-rehash..."
     git clone https://github.com/sstephenson/rbenv-gem-rehash.git \
       ~/.rbenv/plugins/rbenv-gem-rehash
 fi
@@ -147,18 +147,18 @@ fancy_echo "Installing ruby 2.0.0 and 2.14..."
 
 
 # install Ruby gems
-fancy_echo "Updating to latest Rubygems version ..."
+fancy_echo "Updating to latest Rubygems version..."
   gem update --system
 
 if ! command -v bundler >/dev/null; then
-  fancy_echo "Installing Bundler to install project-specific Ruby gems..."
+  fancy_echo "Installing Bundler..."
     gem install bundler
 fi
 
 
 # Installs node programs
 if ! command -v fanyi >/dev/null; then
-  fancy_echo "install fanyi, a command line translator..."
+  fancy_echo "install fanyi..."
     sudo npm install -g fanyi
 fi
 
@@ -184,7 +184,7 @@ if [[ ! -d "$HOME/.bin" ]]; then
     git clone git@github.com:dd1994/bin.git ~/.bin
 fi
 
-fancy_echo "Installing your personal additions from ~/.laptop.local..."
+fancy_echo "Installing your personal additions from ~/.bootstrap.local.sh..."
   if [[ -f ~/.bootstrap.local.sh ]]; then
     source ~/.bootstrap.local.sh
   fi
