@@ -150,10 +150,11 @@ fancy_echo "Installing ruby 2.0.0 and 2.14..."
 fancy_echo "Updating to latest Rubygems version..."
   gem update --system
 
-if ! command -v bundler >/dev/null; then
-  fancy_echo "Installing Bundler..."
-    gem install bundler
-fi
+fancy_echo "Installing Bundler..."
+  gem install bundler
+
+fancy_echo "Installing Pry..."
+  gem install pry pry-doc pry-coolline
 
 
 # Installs node programs
