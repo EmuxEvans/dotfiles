@@ -5,7 +5,7 @@
 fish shell, Ruby 和 Git，这些组合让我很快乐。
 
 ### Sublime Text 3 Plugins
-* Alignment
+* AlignTab
 * Git
 * Markdown Preview
 * Advanced​New​File
