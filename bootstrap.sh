@@ -136,9 +136,9 @@ fi
 
 
 fancy_echo "Installing ruby 2.0.0 and 2.14..."
-  wget -NO ~/.rbenv/cache/ruby-2.1.4.tar.gz \
+  wget -O ~/.rbenv/cache/ruby-2.1.4.tar.gz \
     https://ruby.taobao.org/mirrors/ruby/ruby-2.1.4.tar.gz
-  wget -NO ~/.rbenv/cache/ruby-2.0.0-p594.tar.gz \
+  wget -O ~/.rbenv/cache/ruby-2.0.0-p594.tar.gz \
     https://ruby.taobao.org/mirrors/ruby/ruby-2.0.0-p594.tar.gz
   rbenv install 2.0.0-p594
   rbenv install 2.1.4
