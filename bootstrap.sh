@@ -56,9 +56,6 @@ fancy_echo "Installing watch..."
 fancy_echo "Installing curl..."
   sudo apt-get install -y curl
 
-fancy_echo "Installing The Silver Searcher..."
-  sudo apt-get install -y silversearcher-ag
-
 fancy_echo "Installing rar..."
   sudo apt-get install -y rar
 
