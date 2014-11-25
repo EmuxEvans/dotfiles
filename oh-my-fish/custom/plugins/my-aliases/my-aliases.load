@@ -4,7 +4,6 @@ alias ..... "cd ../../../../"
 alias rm "rm -i"
 alias cp "cp -i"
 alias mv "mv -i"
-alias fy "fanyi"
 alias s "subl"
 
 # git alias
