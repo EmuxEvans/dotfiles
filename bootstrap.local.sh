@@ -31,11 +31,13 @@ if ! command -v fcitx >/dev/null; then
     fcitx
 fi
 
-
 fancy_echo "installing Sublime text 3..."
 	sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 	sudo apt-get update
 	sudo apt-get install -y sublime-text-installer
+
+fancy_echo "installing guake..."
+  sudo apt-get install -y guake
 
 if [[ ! -d "$HOME/.config/sublime-text-3" ]]; then
   fancy_echo "restore Sublime settings..."
