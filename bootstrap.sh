@@ -153,6 +153,9 @@ fancy_echo "Installing Pry..."
 fancy_echo "Installing fy..."
   gem install fy
 
+fancy_echo "Installing tmuxinator..."
+  gem install tmuxinator
+
 
 # Installs node programs
 
