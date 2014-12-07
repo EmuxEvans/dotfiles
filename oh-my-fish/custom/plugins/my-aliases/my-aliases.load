@@ -5,6 +5,7 @@ alias rm "rm -i"
 alias cp "cp -i"
 alias mv "mv -i"
 alias s "subl"
+alias mux "tmuxinator"
 
 # git alias
 alias g "git"
