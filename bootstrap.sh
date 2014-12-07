@@ -150,12 +150,11 @@ fancy_echo "Installing Bundler..."
 fancy_echo "Installing Pry..."
   gem install pry pry-doc pry-coolline
 
+fancy_echo "Installing fy..."
+  gem install fy
+
 
 # Installs node programs
-if ! command -v fanyi >/dev/null; then
-  fancy_echo "install fanyi..."
-    sudo npm install -g fanyi
-fi
 
 
 # install fonts
