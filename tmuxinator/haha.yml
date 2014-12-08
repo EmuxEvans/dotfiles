@@ -1,7 +1,7 @@
 # ~/.tmuxinator/hello_app.yml
 
-name: hello_app
-root: ~/Documents/playground/rails_playground/hello_app/
+name: haha
+root: ~/Documents/playground/rails_playground/haha/
 
 # Optional tmux socket
 # socket_name: foo
