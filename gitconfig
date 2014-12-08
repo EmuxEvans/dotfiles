@@ -9,7 +9,6 @@
 	helper = cache --timeout=3600
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = gedit
 [push]
 	default = simple
 [merge]
