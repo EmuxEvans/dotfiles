@@ -49,3 +49,6 @@ fancy_echo "installing atom..."
   sudo add-apt-repository -y ppa:webupd8team/atom
   sudo apt-get update
   sudo apt-get install -y atom
+
+fancy_echo "installing redshift-gtk..."
+  sudo apt-get install redshift-gtk
