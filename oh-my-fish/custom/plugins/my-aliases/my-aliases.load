@@ -6,6 +6,7 @@ alias cp "cp -i"
 alias mv "mv -i"
 alias s "subl"
 alias mux "tmuxinator"
+alias sl "ls"
 
 # git alias
 alias g "git"
