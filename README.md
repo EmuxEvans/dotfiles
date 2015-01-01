@@ -1,18 +1,8 @@
 ## About
 这是我的配置文件。
 
-现在大部分时间我都是在用 Linux Mint, RubyMine, Sublime Text 3,
+现在大部分时间我都是在用 Linux Mint, RubyMine, <del>Sublime Text 3</del> Atom,
 fish shell, Ruby 和 Git，这些组合让我很快乐。
-
-### Sublime Text 3 Plugins
-* AlignTab
-* Git
-* Markdown Preview
-* Advanced​New​File
-* GitGutter
-* All Autocomplete
-* AutoFileName
-* Trailing​Spaces
 
 
 ## 如何使用
