@@ -7,6 +7,7 @@ alias mv "mv -i"
 alias s "subl"
 alias mux "tmuxinator"
 alias sl "ls"
+alias rmt "trash-put"
 
 # git alias
 alias g "git"
