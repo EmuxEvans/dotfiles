@@ -1,12 +1,9 @@
 alias ... "cd ../../"
 alias .... "cd ../../../"
 alias ..... "cd ../../../../"
-alias rm "rm -i"
-alias cp "cp -i"
-alias mv "mv -i"
+
+alias rm "trash-put"
 alias mux "tmuxinator"
-alias sl "ls"
-alias rmt "trash-put"
 
 # git alias
 alias g "git"

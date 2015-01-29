@@ -15,6 +15,7 @@ git clone git@github.com:dd1994/dotfiles.git ~/.dotfiles
 rcup
 ```
 
+:warning: :warning:
 当然我不推荐你这样做，因为里面很多设置都是我的个人爱好。
 
 但是你可以参考一下，**在知道自己干什么的情况下**，复制粘贴一部分。
