@@ -44,6 +44,9 @@ fancy_echo "Installing MySQL..."
 
 
 # install common tools
+fancy_echo "Installing clang 3.5..."
+  sudo apt-get install -y clang-3.5
+
 fancy_echo "Installing tmux..."
   sudo apt-get install -y tmux
 

@@ -4,6 +4,7 @@ alias ..... "cd ../../../../"
 
 alias rm "trash-put"
 alias mux "tmuxinator"
+alias cc "clang"
 
 # git alias
 alias g "git"
