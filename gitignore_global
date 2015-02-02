@@ -1,4 +1,12 @@
 .idea/
+
+# C
 a.c
+b.c
+c.c
 a.out
+
+# Ruby
 a.rb
+b.rb
+c.rb
