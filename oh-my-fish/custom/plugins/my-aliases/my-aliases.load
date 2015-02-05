@@ -14,3 +14,5 @@ alias gc! "git commit -v --amend"
 alias gp "git push"
 alias gcm "git checkout master"
 alias gst "git status"
+
+alias ding "vi ~/Dropbox/todo.txt"
