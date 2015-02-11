@@ -15,4 +15,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # alias
 alias f='fish'
 alias t='tmux'
-alias s='subl'

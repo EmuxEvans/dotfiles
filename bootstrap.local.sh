@@ -39,12 +39,6 @@ fancy_echo "installing Sublime text 3..."
 fancy_echo "installing guake..."
   sudo apt-get install -y guake
 
-if [[ ! -d "$HOME/.config/sublime-text-3" ]]; then
-  fancy_echo "restore Sublime settings..."
-    cd ~/.config
-    ln -s ~/Dropbox/dotfiles/sublime-text-3
-fi
-
 fancy_echo "installing atom..."
   sudo add-apt-repository -y ppa:webupd8team/atom
   sudo apt-get update
