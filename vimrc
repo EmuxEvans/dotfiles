@@ -13,5 +13,3 @@ set smartcase
 set incsearch
 
 set nobackup
-
-autocmd FileType clojure setlocal lisp
