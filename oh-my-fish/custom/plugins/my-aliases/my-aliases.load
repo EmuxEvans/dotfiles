@@ -5,6 +5,8 @@ alias ..... "cd ../../../../"
 alias rm "trash-put"
 alias mux "tmuxinator"
 alias cc "clang"
+alias cf "coffee"
+alias cfc "coffee -c"
 
 # git alias
 alias g "git"
