@@ -1,10 +1,6 @@
 ## About
 这是我的配置文件。
 
-现在大部分时间我都是在用 Linux Mint, RubyMine, <del>Sublime Text 3</del> Atom,
-fish shell, Ruby 和 Git，这些组合让我很快乐。
-
-
 ## 如何使用
 我使用 [rcm](https://github.com/thoughtbot/rcm)来管理 dotfiles，
 
