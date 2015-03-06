@@ -191,3 +191,5 @@ fancy_echo "Installing your personal additions from ~/.bootstrap.local.sh..."
   if [[ -f ~/.bootstrap.local.sh ]]; then
     source ~/.bootstrap.local.sh
   fi
+
+# TODO add cloc
