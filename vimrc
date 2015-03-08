@@ -19,6 +19,9 @@ Plugin 'tpope/vim-commentary'
 Plugin 'rking/ag.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -74,3 +77,9 @@ colorscheme Tomorrow-Night
 
 " shortcut
 map <C-n> :NERDTreeToggle<CR>
+
+
+" Trigger configuration for ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
