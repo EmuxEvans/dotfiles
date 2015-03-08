@@ -10,9 +10,6 @@ mkdir -p ~/.log
 fancy_echo "add ppa for the latest fish shell..."
   sudo apt-add-repository -y ppa:fish-shell/release-2
 
-fancy_echo "add ppa for node.js..."
-  curl -sL https://deb.nodesource.com/setup | sudo bash -
-
 fancy_echo "Updating system packages..."
   sudo apt-get update
   sudo apt-get upgrade
@@ -108,10 +105,6 @@ if [[ ! -d "$HOME/.ssh" ]]; then
     ln -s ~/Dropbox/dotfiles/.ssh
 fi
 
-# install languages
-fancy_echo "Installing node.js..."
-  sudo apt-get install -y nodejs
-
 if [[ ! -d "$HOME/.rbenv" ]]; then
   fancy_echo "Installing rbenv, to change Ruby versions..."
     git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
@@ -161,9 +154,6 @@ fancy_echo "Installing fy..."
 
 fancy_echo "Installing tmuxinator..."
   gem install tmuxinator
-
-
-# Installs node programs
 
 
 # install fonts
