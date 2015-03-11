@@ -22,6 +22,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'Lokaltog/vim-easymotion'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
