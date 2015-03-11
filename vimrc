@@ -76,7 +76,8 @@ colorscheme Tomorrow-Night
 
 
 " shortcut
-map <C-n> :NERDTreeToggle<CR>
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>f :Ag<space>
 
 
 " Trigger configuration for ultisnips
