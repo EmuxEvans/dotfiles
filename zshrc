@@ -5,6 +5,7 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/Apps/elixir/bin:$PATH"
 export TERM="xterm-256color"
 export EDITOR=vim
+export RUBYTAOBAO=1
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
