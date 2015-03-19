@@ -23,6 +23,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'ianva/vim-youdao-translater'
+Plugin 'bronson/vim-trailing-whitespace'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -80,8 +81,8 @@ colorscheme Tomorrow-Night
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>f :Ag<space>
 nmap <leader>y :CtrlPBuffer<CR>
-vnoremap <silent> <C-T> <Esc>:Ydv<CR> 
-nnoremap <silent> <C-T> <Esc>:Ydc<CR> 
+vnoremap <silent> <C-T> <Esc>:Ydv<CR>
+nnoremap <silent> <C-T> <Esc>:Ydc<CR>
 noremap <leader>yd :Yde<CR>
 
 
