@@ -24,6 +24,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'ianva/vim-youdao-translater'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'thinca/vim-quickrun'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
