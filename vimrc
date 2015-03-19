@@ -91,3 +91,7 @@ noremap <leader>yd :Yde<CR>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
