@@ -75,7 +75,8 @@ set colorcolumn=+1
 set t_ut=
 
 
-colorscheme Tomorrow-Night
+" colorscheme Tomorrow-Night
+colorscheme Tomorrow
 
 
 " shortcut
