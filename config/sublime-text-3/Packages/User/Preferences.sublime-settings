@@ -1,5 +1,6 @@
 {
-	"ensure_newline_at_eof_on_save ": true,
+	"color_scheme": "Packages/Color Scheme - Default/LAZY.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 16,
 	"ignored_packages":
 	[
@@ -7,5 +8,6 @@
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
