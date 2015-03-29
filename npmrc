@@ -1,2 +1,5 @@
-registry=https://registry.npm.taobao.org/
 viewer=browser
+//registry.npmjs.org/:_password=aWxvdmV5aGIxMzE0
+//registry.npmjs.org/:username=jiang-di
+//registry.npmjs.org/:email=jiangdirb@gmail.com
+//registry.npmjs.org/:always-auth=false
