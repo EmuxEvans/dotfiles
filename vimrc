@@ -65,11 +65,6 @@ if executable('ag')
 endif
 
 
-" Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
-
-
 " for tmux
 " http://stackoverflow.com/questions/6427650/vim-in-tmux-background-color-changes-when-paging
 set t_ut=
