@@ -38,6 +38,9 @@ echo "Installing tig..."
 echo "Installing trash-cli..."
   sudo apt-get install -y trash-cli
 
+echo "Installing zsh..."
+  sudo apt-get install -y zsh
+
 # install GUI Apps
 if ! command -v fcitx >/dev/null; then
   echo "installing fcitx, a chinese input method..."
