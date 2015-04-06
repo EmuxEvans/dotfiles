@@ -46,6 +46,3 @@ if ! command -v fcitx >/dev/null; then
     im-switch -s fcitx
     fcitx
 fi
-
-echo "installing redshift-gtk..."
-  sudo apt-get install redshift-gtk
