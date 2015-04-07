@@ -31,5 +31,10 @@ export NVM_DIR="/home/xavier/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # alias
-alias f='fish'
 alias t='tmux'
+alias rm="trash-put"
+alias mux="tmuxinator"
+alias cc="clang"
+alias cf="coffee"
+alias cfc="coffee -c"
+alias py3="python3"
