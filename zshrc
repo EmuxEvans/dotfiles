@@ -34,7 +34,21 @@ export NVM_DIR="/home/xavier/.nvm"
 alias t='tmux'
 alias rm="trash-put"
 alias mux="tmuxinator"
-alias cc="clang"
+alias cc="clang-3.5"
 alias cf="coffee"
 alias cfc="coffee -c"
 alias py3="python3"
+
+# Setup zsh-autosuggestions
+source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically
+zle-line-init() {
+    zle autosuggest-start
+}
+
+zle -N zle-line-init
+
+# use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
+# zsh-autosuggestions is designed to be unobtrusive)
+bindkey '^T' autosuggest-toggle
