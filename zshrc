@@ -38,6 +38,8 @@ alias cc="clang-3.5"
 alias cf="coffee"
 alias cfc="coffee -c"
 alias py3="python3"
+alias sl="ls"
+alias ai='sudo apt-get install'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
