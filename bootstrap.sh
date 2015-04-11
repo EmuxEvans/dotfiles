@@ -41,6 +41,9 @@ echo "Installing trash-cli..."
 echo "Installing zsh..."
   sudo apt-get install -y zsh
 
+echo "Installing chinese font"
+  sudo apt-get install ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy
+
 # install GUI Apps
 if ! command -v fcitx >/dev/null; then
   echo "installing fcitx, a chinese input method..."
