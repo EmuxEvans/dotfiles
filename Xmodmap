@@ -1,3 +1,0 @@
-keysym Caps_Lock = Control_L
-remove lock = Caps_Lock
-add control = Control_L
