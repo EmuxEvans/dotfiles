@@ -10,7 +10,7 @@ DISABLE_AUTO_UPDATE="true"
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-plugins=(git z extract)
+plugins=(git z extract git-extras)
 
 # User configuration
 
