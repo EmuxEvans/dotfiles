@@ -25,7 +25,7 @@ rcup
 我用 oh-my-zsh， zshrc 里加了些 zsh 插件，一些 aliases，以及 rbenv, nvm 的配置。
 
 ### vimrc
-再在用 Vim 一年半以后，我决定切换到 Atom，主要原因是我觉得自己的键盘不太好用，另一方面我觉得
+在用 Vim 一年半以后，我决定切换到 Atom，主要原因是我觉得自己的键盘不太好用，另一方面我觉得
 打字速度不是我编码时的瓶颈。所以这个 vimrc 基本上也没用了。
 
 ### tmux.conf
