@@ -18,6 +18,11 @@ rcup
 
 如果有什么问题，随意提 Issues。
 
+## 视频：
+
+去年的，那时候比较喜欢耍帅：<http://www.tudou.com/programs/view/AgAplB-NxFw/>
+刚不久的： <http://www.tudou.com/programs/view/dmfKA8BWyCA/>
+
 ## 详细内容
 
 ### zshrc
