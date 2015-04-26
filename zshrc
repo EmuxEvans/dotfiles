@@ -40,6 +40,7 @@ alias cfc="coffee -c"
 alias py3="python3"
 alias sl="ls"
 alias ai='sudo apt-get install'
+alias iojs='iojs --es_staging'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
