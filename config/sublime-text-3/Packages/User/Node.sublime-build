@@ -1,0 +1,4 @@
+{
+  "cmd": ["/home/xavier/.nvm/versions/io.js/v1.8.1/bin/iojs", "--es_staging", "$file"],
+  "selector": "source.js",
+}
