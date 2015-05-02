@@ -1,15 +1,7 @@
 [user]
-	email = dd19941105@gmail.com
+	email = jiangdirb@gmail.com
 	name = JIANG Di
 [alias]
     cl = clone
-    throw = reset --hard HEAD
-    throwh = reset --hard HEAD^
-[credential]
-	helper = cache --timeout=3600
 [core]
 	excludesfile = ~/.gitignore_global
-[push]
-	default = simple
-[merge]
-	tool = vimdiff
