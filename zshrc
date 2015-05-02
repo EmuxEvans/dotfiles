@@ -1,14 +1,8 @@
+# oh-my-zsh configuration
+
 export ZSH=/home/xavier/.oh-my-zsh
 
 ZSH_THEME="cloud"
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
-
-DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(git z extract git-extras)
 
@@ -55,3 +49,5 @@ zle -N zle-line-init
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
+
+###### THE END ######
