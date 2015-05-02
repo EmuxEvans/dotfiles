@@ -50,4 +50,6 @@ zle -N zle-line-init
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
 
-###### THE END ######
+# the fuck
+alias fuck='eval $(thefuck $(fc -ln -1))'
+
