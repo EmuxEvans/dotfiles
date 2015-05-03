@@ -6,4 +6,5 @@ sudo apt-get install -y im-switch fcitx fcitx-config-gtk2 \
   fcitx-googlepinyin fcitx-frontend-gtk2 fcitx-ui-classic fcitx-ui-light
 
 im-switch -s fcitx
+
 fcitx
