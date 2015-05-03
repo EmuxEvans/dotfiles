@@ -9,3 +9,5 @@
     invisibles: {}
     fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
     fontSize: 18
+  autosave:
+    enabled: true
