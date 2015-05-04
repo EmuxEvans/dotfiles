@@ -11,3 +11,5 @@
     fontSize: 18
   autosave:
     enabled: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
