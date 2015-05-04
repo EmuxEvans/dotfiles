@@ -23,6 +23,7 @@ eval "$(rbenv init -)"
 # nvm
 export NVM_DIR="/home/xavier/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+export NODE_PATH=$HOME/.nvm/versions/node/v0.12.2/lib/node_modules/
 
 # alias
 alias t='tmux'
@@ -52,4 +53,3 @@ bindkey '^T' autosuggest-toggle
 
 # the fuck
 alias fuck='eval $(thefuck $(fc -ln -1))'
-
