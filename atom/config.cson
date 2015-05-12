@@ -15,3 +15,10 @@
     enabled: true
   autocomplete:
     includeCompletionsFromAllBuffers: true
+  linter:
+    lintOnChange: false
+    showInfoMessages: true
+  "linter-jshint":
+    jshintExecutablePath: "/home/xavier/.nvm/versions/io.js/v2.0.1/bin/jshint"
+  "linter-rubocop":
+    rubocopExecutablePath: "/home/xavier/.rbenv/shims/rubocop"
