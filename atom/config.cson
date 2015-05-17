@@ -6,7 +6,8 @@
   core:
     autoHideMenuBar: true
   editor:
-    invisibles: {}
+    invisibles:
+      {}
     fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
     fontSize: 18
     zoomFontWhenCtrlScrolling: false
@@ -21,3 +22,10 @@
     jshintExecutablePath: "/home/xavier/.nvm/versions/io.js/v2.0.2/bin/jshint"
   "linter-rubocop":
     rubocopExecutablePath: "/home/xavier/.rbenv/shims/rubocop"
+  "linter-jscs":
+    harmony: true
+    messageType: "warning"
+    verbose: true
+  "jscs-fixer":
+    harmony: true
+    defaultPreset: "airbnb"
