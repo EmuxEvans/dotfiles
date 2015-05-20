@@ -5,6 +5,10 @@
     showOnStartup: false
   core:
     autoHideMenuBar: true
+    themes: [
+      "atom-dark-ui"
+      "one-light-syntax"
+    ]
   editor:
     invisibles:
       {}
@@ -29,3 +33,5 @@
   "jscs-fixer":
     harmony: true
     defaultPreset: "airbnb"
+  "clang-format":
+    executable: "clang-format-3.6"

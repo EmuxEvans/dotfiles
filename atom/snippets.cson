@@ -23,4 +23,10 @@
     'body': '\'use strict\';\n\n'
   'require module':
     'prefix': 'req'
-    'body': 'let ${1:module} = require(\'$1\');\n'
+    'body': 'let ${1:module} = require(\'$1\');\n$2'
+  'define simple function':
+    'prefix': 'f'
+    'body': 'function($1) {\n\t$2\n}$3'
+  'define function':
+    'prefix': 'fn'
+    'body': 'function($1) {\n\t$2\n};\n\n$3'
