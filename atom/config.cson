@@ -23,7 +23,7 @@
   linter:
     showInfoMessages: true
   "linter-jshint":
-    jshintExecutablePath: "/home/xavier/.nvm/versions/io.js/v2.0.2/bin/jshint"
+    jshintExecutablePath: "/home/xavier/.nvm/versions/io.js/v2.1.0/bin/jshint"
   "linter-rubocop":
     rubocopExecutablePath: "/home/xavier/.rbenv/shims/rubocop"
   "linter-jscs":
