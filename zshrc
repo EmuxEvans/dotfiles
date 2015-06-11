@@ -23,15 +23,12 @@ eval "$(rbenv init -)"
 # nvm
 export NVM_DIR="/home/xavier/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-export NODE_PATH="/home/xavier/.nvm/versions/io.js/v2.1.0/lib/node_modules"
+export NODE_PATH="/home/xavier/.nvm/versions/io.js/v2.2.1/lib/node_modules"
 
 # alias
 alias t='tmux'
 alias rm="trash-put"
-alias mux="tmuxinator"
 alias cc="clang-3.5"
-alias cf="coffee"
-alias cfc="coffee -c"
 alias py3="python3"
 alias sl="ls"
 alias ai='sudo apt-get install'
@@ -50,6 +47,3 @@ zle -N zle-line-init
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
-
-# the fuck
-alias fuck='eval $(thefuck $(fc -ln -1))'
