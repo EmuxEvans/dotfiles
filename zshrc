@@ -14,7 +14,6 @@ export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.app/elixir/bin:$PATH"
 export TERM="xterm-256color"
 export EDITOR=vim
-export RUBYTAOBAO=1
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -33,6 +32,8 @@ alias py3="python3"
 alias sl="ls"
 alias ai='sudo apt-get install'
 alias iojs='iojs --es_staging'
+alias cf='coffee'
+alias cfl='coffeelint'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
