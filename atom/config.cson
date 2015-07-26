@@ -10,28 +10,12 @@
       "one-light-syntax"
     ]
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
-    fontSize: 18
     zoomFontWhenCtrlScrolling: false
     showIndentGuide: true
+    fontSize: 18
   autosave:
     enabled: true
   autocomplete:
     includeCompletionsFromAllBuffers: true
-  linter:
-    showInfoMessages: true
-  "linter-jshint":
-    jshintExecutablePath: "/home/xavier/.nvm/versions/io.js/v2.1.0/bin/jshint"
-  "linter-rubocop":
-    rubocopExecutablePath: "/home/xavier/.rbenv/shims/rubocop"
-  "linter-jscs":
-    harmony: true
-    messageType: "warning"
-    verbose: true
-  "jscs-fixer":
-    harmony: true
-    defaultPreset: "airbnb"
-  "clang-format":
-    executable: "clang-format-3.6"
