@@ -14,7 +14,7 @@
     fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
     zoomFontWhenCtrlScrolling: false
     showIndentGuide: true
-    fontSize: 18
+    fontSize: 20
   autosave:
     enabled: true
   autocomplete:

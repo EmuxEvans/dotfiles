@@ -18,9 +18,6 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
-  'strict mode':
-    'prefix': 'str'
-    'body': '\'use strict\';\n\n'
   'require module':
     'prefix': 'req'
     'body': 'let ${1:module} = require(\'$1\');\n$2'
@@ -29,4 +26,46 @@
     'body': 'function($1) {\n\t$2\n}$3'
   'define function':
     'prefix': 'fn'
-    'body': 'function($1) {\n\t$2\n};\n\n$3'
+    'body': 'function($1) {\n\t$2\n};$3'
+  "Express middleware":
+    prefix: "xm"
+    body: """
+    function(req, res${1:, next}) {
+    \t${0}
+    }
+    """
+  "Express error handler":
+    prefix: "xerr"
+    body: """
+    function(err, req, res, next) {
+    \t${0}
+    }
+    """
+'.source.c':
+  'include stdio.h':
+    'prefix': 'io'
+    'body': '#include <stdio.h>\n$1'
+  'If Else':
+    'prefix': 'ife'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else {\n\t${3:/* code */}\n}'
+  'If ElseIf':
+    'prefix': 'iff'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n}'
+  'If ElseIf Else':
+    'prefix': 'iffe'
+    'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n} else {\n\t${5:/* code */}\n}'
+  'scanf':
+    'prefix': 'scanf'
+    'body': 'scanf("${1:%s}", $2);\n$3'
+  'puts':
+    'prefix': 'puts'
+    'body': 'puts("${1}");\n$2'
+  'For Loop':
+    'prefix': 'for'
+    'body': 'for (int ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}${3:++}) {\n\t${4:/* code */}\n}'
+  '#include <>':
+    'prefix': 'Inc'
+    'body': '#include <${1:}.h>\n$2'
+  '#include ""':
+    'prefix': 'inc'
+    'body': '#include "${1:}.h"\n$2'
