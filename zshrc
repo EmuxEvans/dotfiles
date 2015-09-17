@@ -22,7 +22,6 @@ eval "$(rbenv init -)"
 # nvm
 export NVM_DIR="/home/xavier/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-export NODE_PATH="/home/xavier/.nvm/versions/io.js/v3.0.0/lib/node_modules"
 
 # alias
 alias t='tmux'
