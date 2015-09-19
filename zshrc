@@ -26,7 +26,7 @@ export NVM_DIR="/home/xavier/.nvm"
 # alias
 alias t='tmux'
 alias rm="trash-put"
-alias cc="clang-3.5"
+alias cc="clang-3.6"
 alias py3="python3"
 alias sl="ls"
 alias ai='sudo apt-get install'
