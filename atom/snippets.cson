@@ -54,18 +54,25 @@
   'If ElseIf Else':
     'prefix': 'iffe'
     'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else if (${3:/* condition */}) {\n\t${4:/* code */}\n} else {\n\t${5:/* code */}\n}'
-  'scanf':
-    'prefix': 'scanf'
-    'body': 'scanf("${1:%s}", $2);\n$3'
+
   'puts':
-    'prefix': 'puts'
-    'body': 'puts("${1}");\n$2'
-  'For Loop':
-    'prefix': 'for'
-    'body': 'for (int ${1:i} = 0; ${1:i} < ${2:count}; ${1:i}${3:++}) {\n\t${4:/* code */}\n}'
+    'prefix': 'put'
+    'body': 'puts("${1}");$2'
   '#include <>':
     'prefix': 'Inc'
-    'body': '#include <${1:}.h>\n$2'
+    'body': '#include <${1:}.h>$2'
   '#include ""':
     'prefix': 'inc'
-    'body': '#include "${1:}.h"\n$2'
+    'body': '#include "${1:}.h"$2'
+  'if':
+    'prefix': 'if'
+    'body': 'if (${1:true}) {\n\t$2\n}'
+  'if … else':
+    'prefix': 'ife'
+    'body': 'if (${1:true}) {\n\t$2\n} else {\n\t$3\n}'
+  'else':
+    'prefix': 'else'
+    'body': 'else {\n\t$1\n}'
+  'else if':
+    'prefix': 'elseif'
+    'body': 'else if (${1:true}) {\n\t$2\n}'
