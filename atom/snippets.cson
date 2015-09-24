@@ -44,7 +44,7 @@
 '.source.c':
   'include stdio.h':
     'prefix': 'io'
-    'body': '#include <stdio.h>\n$1'
+    'body': '#include <stdio.h>$1'
   'If Else':
     'prefix': 'ife'
     'body': 'if (${1:/* condition */}) {\n\t${2:/* code */}\n} else {\n\t${3:/* code */}\n}'
@@ -76,3 +76,9 @@
   'else if':
     'prefix': 'elseif'
     'body': 'else if (${1:true}) {\n\t$2\n}'
+  'any function':
+    'prefix': 'func'
+    'body': '${1:void} ${2:name}(${3:/* arguments */}) {\n\t$4\n}'
+  'main()':
+    'prefix': 'main'
+    'body': 'int main(void) {\n\t${1:/* code */}\n\treturn 0;\n}'
