@@ -46,3 +46,7 @@ zle -N zle-line-init
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
+
+[[ -s "/home/xavier/.gvm/scripts/gvm" ]] && source "/home/xavier/.gvm/scripts/gvm"
+
+export HTTPS_PROXY=127.0.0.1:1080
