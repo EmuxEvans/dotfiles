@@ -81,7 +81,7 @@
     'body': '${1:void} ${2:name}(${3:void}) {\n\t$4\n}'
   'main()':
     'prefix': 'main'
-    'body': 'int main(void) {\n\t${1:/* code */}\n\treturn 0;\n}'
+    'body': 'int main(${1:int argc, const char *argv[]}) {\n\t${2:/* code */}\n\treturn 0;\n}'
   'scanf':
     'prefix': 'scanf'
     'body': 'scanf("${1:%s}", $2);$3'
