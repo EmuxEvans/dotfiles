@@ -4,7 +4,7 @@ export ZSH=/home/xavier/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(git z git-extras)
+plugins=(git z git-extras lein)
 
 # User configuration
 
