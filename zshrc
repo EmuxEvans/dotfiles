@@ -4,7 +4,7 @@ export ZSH=/home/xavier/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(git z extract git-extras)
+plugins=(git z git-extras)
 
 # User configuration
 
@@ -30,8 +30,6 @@ alias cc="clang-3.6"
 alias py3="python3"
 alias sl="ls"
 alias ai='sudo apt-get install'
-alias cf='coffee'
-alias cfl='coffeelint'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
@@ -49,4 +47,4 @@ bindkey '^T' autosuggest-toggle
 
 [[ -s "/home/xavier/.gvm/scripts/gvm" ]] && source "/home/xavier/.gvm/scripts/gvm"
 
-export HTTPS_PROXY=127.0.0.1:1080
+# export HTTPS_PROXY=127.0.0.1:1080
