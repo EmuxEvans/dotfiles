@@ -11,7 +11,6 @@ plugins=(git z git-extras)
 source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.bin:$PATH"
-export PATH="$HOME/.app/elixir/bin:$PATH"
 export TERM="xterm-256color"
 export EDITOR=vim
 
