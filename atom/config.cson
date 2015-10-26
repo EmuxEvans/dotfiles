@@ -15,6 +15,7 @@
     zoomFontWhenCtrlScrolling: false
     showIndentGuide: true
     fontSize: 20
+    scrollPastEnd: true
   autosave:
     enabled: true
   autocomplete:

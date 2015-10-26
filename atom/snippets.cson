@@ -18,15 +18,21 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log($1)$2'
+  'use strict':
+    'prefix': 'us'
+    'body': "'use strict'$1"
   'require module':
     'prefix': 'req'
-    'body': 'let ${1:module} = require(\'$1\');\n$2'
+    'body': 'let ${1:module} = require(\'$1\')\n$2'
   'define simple function':
     'prefix': 'f'
     'body': 'function($1) {\n\t$2\n}$3'
   'define function':
     'prefix': 'fn'
-    'body': 'function($1) {\n\t$2\n};$3'
+    'body': 'function($1) {\n\t$2\n}$3'
   "Express middleware":
     prefix: "xm"
     body: """
