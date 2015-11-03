@@ -29,10 +29,10 @@
     'body': 'let ${1:module} = require(\'$1\')\n$2'
   'define simple function':
     'prefix': 'f'
-    'body': 'function($1) {\n\t$2\n}$3'
+    'body': '($1) => $2'
   'define function':
     'prefix': 'fn'
-    'body': 'function($1) {\n\t$2\n}$3'
+    'body': '($1) => {\n\t$2\n}$3'
   "Express middleware":
     prefix: "xm"
     body: """
