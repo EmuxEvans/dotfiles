@@ -18,6 +18,9 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  'module.exports':
+    'prefix': 'me'
+    'body': 'module.exports = $1'
   'console.log':
     'prefix': 'log'
     'body': 'console.log($1)$2'
