@@ -29,7 +29,7 @@
     'body': "'use strict'$1"
   'require module':
     'prefix': 'req'
-    'body': 'let ${1:module} = require(\'$1\')\n$2'
+    'body': 'const ${1:module} = require(\'$1\')\n$2'
   'define simple function':
     'prefix': 'f'
     'body': '($1) => $2'
