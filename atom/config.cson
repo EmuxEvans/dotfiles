@@ -6,7 +6,7 @@
   core:
     autoHideMenuBar: true
     themes: [
-      "atom-dark-ui"
+      "one-light-ui"
       "one-light-syntax"
     ]
   editor:
