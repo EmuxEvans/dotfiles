@@ -18,6 +18,12 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  "let assignment":
+    'prefix': "l="
+    'body': "let ${1:name} = ${2:value}"
+  "const assignment":
+    'prefix': "co="
+    'body': "const ${1:name} = ${2:value}"
   'module.exports':
     'prefix': 'me'
     'body': 'module.exports = $1'
@@ -27,8 +33,11 @@
   'use strict':
     'prefix': 'us'
     'body': "'use strict'$1"
-  'require module':
-    'prefix': 'req'
+  'require module(let)':
+    'prefix': 'lreq'
+    'body': 'let ${1:module} = require(\'$1\')\n$2'
+  'require module(cost)':
+    'prefix': 'creq'
     'body': 'const ${1:module} = require(\'$1\')\n$2'
   'define simple function':
     'prefix': 'f'
