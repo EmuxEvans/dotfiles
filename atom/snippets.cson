@@ -133,7 +133,7 @@
     'prefix': "l="
     'body': "let ${1:name} = ${2:value}"
   "const assignment":
-    'prefix': "co="
+    'prefix': "co"
     'body': "const ${1:name} = ${2:value}"
   'module.exports':
     'prefix': 'me'
