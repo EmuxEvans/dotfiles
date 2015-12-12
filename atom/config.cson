@@ -5,6 +5,10 @@
     showOnStartup: false
   core:
     autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "one-light-syntax"
+    ]
   editor:
     invisibles: {}
     fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
