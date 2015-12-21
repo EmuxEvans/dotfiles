@@ -18,15 +18,69 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  "assert.strictEqual":
+    'prefix': 'ase'
+    'body': "assert.strictEqual(${1:actual}, ${2:expected})"
+  "assert.notStrictEqual":
+    'prefix': 'asn'
+    'body': "assert.notStrictEqual(${1:actual}, ${2:expected})"
+  "assert.deepStrictEqual":
+    'prefix': 'asd'
+    'body': "assert.deepStrictEqual(${1:actual}, ${2:expected})"
+  'describe':
+    'prefix': 'desc'
+    'body': """
+    describe('${1:description}', () => {
+    \t${0}
+    })
+    """
+  'it':
+    'prefix': 'it'
+    'body': """
+    it('${1:description}', () => {
+    \t${0}
+    })
+   """
+  'mocha before':
+    'prefix': 'bf'
+    'body': """
+    before(() => {
+    \t${0}
+    })
+    """
+  "mocha beforeEach":
+    'prefix': 'bfe'
+    'body': """
+    beforeEach(() => {
+    \t${0}
+    })
+    """
+  "mocha after":
+    'prefix': 'aft'
+    'body': """
+    after(() => {
+    \t${0}
+    })
+    """
+  "mocha afterEach":
+    'prefix': 'afe'
+    'body': """
+    afterEach(() => {
+    \t${0}
+    })
+    """
+  'Object.create':
+    'prefix': 'oc'
+    'body': 'Object.create($1)$2'
   'Object Method':
     'prefix': 'kf'
-    'body': '${1:methodName}: function (${2:attribute}) {\n\t$3\n}${4:,}'
+    'body': '${1:methodName}: function(${2:attribute}) {\n\t$3\n}${4:,}'
   'Object key — key: "value"':
     'prefix': 'kv'
     'body': '${1:key}: ${2:\'${3:value}\'}${4:, }'
   'Prototype':
     'prefix': 'proto'
-    'body': '${1:ClassName}.prototype.${2:methodName} = function ($3) {\n\t$0\n};'
+    'body': '${1:ClassName}.prototype.${2:methodName} = function($3) {\n\t$0\n}'
   'do':
     'prefix': 'do'
     'body': 'do {\n\t$2\n} while (${1:true});'
@@ -44,10 +98,10 @@
     'body': 'else if (${1:true}) {\n\t$2\n}'
   'for':
     'prefix' : 'for'
-    'body' : 'for (var ${2:i} = 0; ${2:i} < ${1:array}.length; ${2:i}++) {\n\t${1:array}[${2:i}]$3\n}'
+    'body' : 'for (let ${2:i} = 0; ${2:i} < ${1:n}; ${2:i}++) {\n\t$3\n}'
   'for in':
     'prefix': 'forin'
-    'body': 'for (var ${1:variable} in ${2:object}) {\n\t${3:if (${2:object}.hasOwnProperty(${1:variable})) {\n\t\t$4\n\t\\}}\n}'
+    'body': 'for (let ${1:variable} in ${2:object}) {\n\t${3:if (${2:object}.hasOwnProperty(${1:variable})) {\n\t\t$4\n\t\\}}\n}'
   'for of':
     'prefix': 'forof'
     'body': 'for (${1:variable} of ${2:iterable}) {\n\t$3\n}'
@@ -56,7 +110,7 @@
     'body': 'function ${1:functionName}($2) {\n\t$0\n}'
   'Anonymous Function':
     'prefix': 'f'
-    'body': 'function ($1) {\n\t$2\n}'
+    'body': 'function($1) {\n\t$2\n}'
   'Generator':
     'prefix': 'gen',
     'body': 'function* ${1:functionName}($2) {\n\t$0\n}'
@@ -83,28 +137,28 @@
     'body': 'querySelectorAll(${1:\'${2:query}\'})$3'
   'Immediately-Invoked Function Expression':
     'prefix': 'iife'
-    'body': '(function() {\n\t${1:\'use strict\';\n}\t$2\n}());'
+    'body': '(function() {\n\t${1:\'use strict\';\n}\t$2\n}())'
   'log':
     'prefix': 'log'
-    'body': 'console.log($1);$0'
+    'body': 'console.log($1)$0'
   'warn':
     'prefix': 'warn'
-    'body': 'console.warn($1);$0'
+    'body': 'console.warn($1)$0'
   'error':
     'prefix': 'error'
-    'body': 'console.error($1);$0'
+    'body': 'console.error($1)$0'
   'inspect':
     'prefix': 'inspect'
-    'body': 'console.log(require(\'util\').inspect($0, { depth: null }));'
+    'body': 'console.log(require(\'util\').inspect($0, { depth: null }))'
   'new Promise':
     'prefix': 'prom'
-    'body': 'new Promise(function(resolve, reject) {\n\t$1\n});$0'
+    'body': 'new Promise(function(resolve, reject) {\n\t$1\n})$0'
   'setInterval function':
     'prefix': 'interval'
-    'body': 'setInterval(${2:function () {\n\t$3\n\\}}, ${1:10})'
+    'body': 'setInterval(${2:function() {\n\t$3\n\\}}, ${1:10})'
   'setTimeout function':
     'prefix': 'timeout'
-    'body': 'setTimeout(${2:function () {\n\t$3\n\\}}, ${1:10})'
+    'body': 'setTimeout(${2:function() {\n\t$3\n\\}}, ${1:10})'
   'switch':
     'prefix': 'switch'
     'body': 'switch (${1:expression}) {\n\tcase ${2:expression}:\n\t\t$4\n\t\tbreak;$5\n\tdefault:\n\t\t$3\n}'
@@ -119,7 +173,7 @@
     'body': '/**\n * $1\n */$0'
   'CommonJS require':
     'prefix': 'req'
-    'body': 'var ${1:module} = require(\'${1:module}\');'
+    'body': 'let ${1:module} = require(\'${1:module}\')'
   'Class':
     'prefix': 'class'
     'body': 'class ${1:ClassName} {\n\tconstructor($2) {\n\t\t$3\n\t}\n}'
