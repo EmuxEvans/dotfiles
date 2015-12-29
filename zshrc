@@ -24,8 +24,9 @@ export NVM_DIR="/home/xavier/.nvm"
 
 # alias
 alias t='tmux'
-alias cc="clang-3.6"
 alias sl="ls"
+alias setclip='xclip -selection c'
+alias getclip='xclip -selection clipboard -o'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
