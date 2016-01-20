@@ -298,8 +298,7 @@
   'defn':
     'prefix': 'defn'
     'body': """
-      (defn ${1:name}
-        [${2:params}]
+      (defn ${1:name} [${2:params}]
         ${3:body})
     """
 
