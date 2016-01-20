@@ -23,7 +23,7 @@ export NVM_DIR="/home/xavier/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # alias
-alias t='tmux'
+alias tm='tmux'
 alias sl="ls"
 alias setclip='xclip -selection c'
 alias getclip='xclip -selection clipboard -o'
@@ -45,3 +45,6 @@ bindkey '^T' autosuggest-toggle
 [[ -s "/home/xavier/.gvm/scripts/gvm" ]] && source "/home/xavier/.gvm/scripts/gvm"
 
 # export HTTPS_PROXY=127.0.0.1:1080
+
+# added by travis gem
+[ -f /home/xavier/.travis/travis.sh ] && source /home/xavier/.travis/travis.sh
