@@ -4,7 +4,7 @@ export ZSH=/home/xavier/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(git z git-extras lein colored-man-pages dirhistory httpie history-substring-search)
+plugins=(git z git-extras lein dirhistory httpie)
 
 # User configuration
 
