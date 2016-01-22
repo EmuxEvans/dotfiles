@@ -24,7 +24,7 @@ export NVM_DIR="/home/xavier/.nvm"
 
 # alias
 alias tm='tmux'
-alias sl="ls"
+alias gist='gist -o'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
