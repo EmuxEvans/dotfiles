@@ -32,4 +32,4 @@ function web_search() {
 
 
 alias goo='web_search google'
-alias hub='web_search github'
+alias hubs='web_search github'
