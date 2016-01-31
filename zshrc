@@ -25,6 +25,8 @@ export NVM_DIR="/home/xavier/.nvm"
 # alias
 alias tm='tmux'
 alias gist='gist -o'
+alias hs='hs -o'
+alias gac='git add --all && git commit -v'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
