@@ -27,6 +27,8 @@ alias tm='tmux'
 alias gist='gist -o'
 alias hs='hs -o'
 alias gac='git add --all && git commit -v'
+alias rt='trash'
+alias rkt='racket'
 
 # Setup zsh-autosuggestions
 source /home/xavier/.zsh-autosuggestions/autosuggestions.zsh
