@@ -72,12 +72,6 @@
   'Object.create':
     'prefix': 'oc'
     'body': 'Object.create($1)$2'
-  'Object Method':
-    'prefix': 'kf'
-    'body': '${1:methodName}: function(${2:attribute}) {\n\t$3\n}${4:,}'
-  'Object key — key: "value"':
-    'prefix': 'kv'
-    'body': '${1:key}: ${2:\'${3:value}\'}${4:, }'
   'Prototype':
     'prefix': 'proto'
     'body': '${1:ClassName}.prototype.${2:methodName} = function($3) {\n\t$0\n}'
@@ -87,9 +81,6 @@
   'if':
     'prefix': 'if'
     'body': 'if (${1:true}) {\n\t$2\n}'
-  'if … else':
-    'prefix': 'ife'
-    'body': 'if (${1:true}) {\n\t$2\n} else {\n\t$3\n}'
   'else':
     'prefix': 'else'
     'body': 'else {\n\t$1\n}'
