@@ -1,3 +1,3 @@
 add-license () {
-	cp ~/.template/license $1
+    cp ~/.template/license $1
 }
