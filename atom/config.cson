@@ -16,7 +16,10 @@
     showIndentGuide: true
     fontSize: 20
     scrollPastEnd: true
+    tabLength: 4
+    tabType: "soft"
   autosave:
     enabled: true
   autocomplete:
     includeCompletionsFromAllBuffers: true
+  "spell-check": {}

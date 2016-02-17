@@ -75,9 +75,9 @@
   'Prototype':
     'prefix': 'proto'
     'body': '${1:ClassName}.prototype.${2:methodName} = function($3) {\n\t$0\n}'
-  'do':
+  'document':
     'prefix': 'do'
-    'body': 'do {\n\t$2\n} while (${1:true});'
+    'body': 'document'
   'if':
     'prefix': 'if'
     'body': 'if (${1:true}) {\n\t$2\n}'
