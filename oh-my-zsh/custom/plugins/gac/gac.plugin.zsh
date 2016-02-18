@@ -1,4 +1,4 @@
 gac() {
-    git add $1
+    git add $@
     git commit -v
 }
