@@ -4,7 +4,7 @@ export ZSH=/home/xavier/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(git z git-extras lein dirhistory httpie web-search add-license gac)
+plugins=(git z git-extras lein dirhistory httpie web-search add-license)
 
 # User configuration
 
@@ -26,7 +26,7 @@ export NVM_DIR="/home/xavier/.nvm"
 alias tm='tmux'
 alias gist='gist -o'
 alias hs='hs -o'
-alias gaac='git add --all && git commit -v'
+alias gac='git add --all && git commit -v'
 alias rt='trash'
 alias rkt='racket'
 
