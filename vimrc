@@ -30,9 +30,9 @@ let mapleader = " "
 
 set number
 
-set softtabstop=4
+set softtabstop=2
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set autoindent
 set backspace=2
 
