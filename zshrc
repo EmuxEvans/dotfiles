@@ -4,14 +4,13 @@ export ZSH=/Users/weidian123/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(zsh-autosuggestions git z git-extras lein dirhistory httpie web-search add-license)
+plugins=(zsh-autosuggestions git z git-extras lein dirhistory httpie)
 
 # User configuration
 
 source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.bin:$PATH"
-export TERM="xterm-256color"
 export EDITOR=vim
 
 # rbenv
@@ -33,8 +32,6 @@ alias rkt='racket'
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
 bindkey '^T' autosuggest-toggle
-
-# export HTTPS_PROXY=127.0.0.1:1080
 
 # added by travis gem
 [ -f /Users/weidian123/.travis/travis.sh ] && source /Users/weidian123/.travis/travis.sh
