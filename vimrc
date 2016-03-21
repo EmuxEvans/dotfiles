@@ -17,10 +17,8 @@ Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-commentary'
 Plugin 'rking/ag.vim'
 Plugin 'Raimondi/delimitMate'
-Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'ianva/vim-youdao-translater'
 Plugin 'bronson/vim-trailing-whitespace'
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -67,7 +65,6 @@ set t_ut=
 
 
 " colorscheme Tomorrow-Night
-colorscheme Tomorrow
 
 
 " shortcut
