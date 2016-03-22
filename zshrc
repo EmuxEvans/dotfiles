@@ -35,3 +35,6 @@ bindkey '^T' autosuggest-toggle
 
 # added by travis gem
 [ -f /Users/weidian123/.travis/travis.sh ] && source /Users/weidian123/.travis/travis.sh
+
+www=/Users/weidian123/Documents/workspace/
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
