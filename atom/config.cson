@@ -1,8 +1,8 @@
 "*":
-  "exception-reporting":
-    userId: "7f3abe3e-d5a4-d8ce-b74a-3971c6fb31a7"
-  welcome:
-    showOnStartup: false
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  autosave:
+    enabled: true
   core:
     autoHideMenuBar: true
     themes: [
@@ -10,16 +10,15 @@
       "one-light-syntax"
     ]
   editor:
+    fontSize: 18
     invisibles: {}
-    fontFamily: "DejaVu Sans Mono, 文泉驿微米黑"
-    zoomFontWhenCtrlScrolling: false
-    showIndentGuide: true
-    fontSize: 20
     scrollPastEnd: true
+    showIndentGuide: true
     tabLength: 4
     tabType: "soft"
-  autosave:
-    enabled: true
-  autocomplete:
-    includeCompletionsFromAllBuffers: true
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "7f3abe3e-d5a4-d8ce-b74a-3971c6fb31a7"
   "spell-check": {}
+  welcome:
+    showOnStartup: false
