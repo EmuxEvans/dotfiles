@@ -10,13 +10,14 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 18
+    fontSize: 25
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
     tabType: "soft"
     zoomFontWhenCtrlScrolling: false
+  emmet: {}
   "exception-reporting":
     userId: "7f3abe3e-d5a4-d8ce-b74a-3971c6fb31a7"
   "spell-check": {}
