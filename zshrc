@@ -4,7 +4,7 @@ export ZSH=/Users/weidian123/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(zsh-autosuggestions git z git-extras lein dirhistory httpie)
+plugins=(zsh-autosuggestions git z git-extras lein dirhistory httpie tmuxinator)
 
 # User configuration
 

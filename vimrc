@@ -1,4 +1,6 @@
+set nocompatible
 filetype off                  " required
+syntax enable
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -10,6 +12,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " plugins
+Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -65,7 +68,7 @@ endif
 set t_ut= 
 
 
-" colorscheme Tomorrow-Night
+colorscheme Tomorrow
 
 
 " shortcut
