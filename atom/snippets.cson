@@ -101,7 +101,7 @@
     'body': 'function ${1:functionName}($2) {\n\t$0\n}'
   'Anonymous Function':
     'prefix': 'f'
-    'body': 'function($1) {\n\t$2\n}'
+    'body': 'function ($1) {\n\t$2\n}'
   'Generator':
     'prefix': 'gen',
     'body': 'function* ${1:functionName}($2) {\n\t$0\n}'
