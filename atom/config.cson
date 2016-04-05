@@ -10,7 +10,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 25
+    fontSize: 23
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
