@@ -4,7 +4,7 @@ export ZSH=/Users/weidian123/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(zsh-autosuggestions git z git-extras lein dirhistory httpie tmuxinator)
+plugins=(zsh-autosuggestions z git git-extras lein dirhistory httpie tmuxinator)
 
 # User configuration
 
@@ -25,6 +25,7 @@ export NVM_DIR="/Users/weidian123/.nvm"
 alias tm='tmux'
 alias gist='gist -o'
 alias hs='hs -o'
+alias aria='aria2c -x10'
 alias gac='git add --all && git commit -v'
 alias rt='trash'
 alias rkt='racket'
