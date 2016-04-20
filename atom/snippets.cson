@@ -18,6 +18,9 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.js':
+  "debugger":
+    'prefix': 'deb'
+    'body': 'debugger'
   "assert.strictEqual":
     'prefix': 'ase'
     'body': "assert.strictEqual(${1:actual}, ${2:expected})"
