@@ -10,6 +10,7 @@
       "one-light-syntax"
     ]
   editor:
+    fontFamily: "Source Code Pro"
     fontSize: 23
     invisibles: {}
     scrollPastEnd: true
