@@ -16,7 +16,16 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
-
+'.source.html':
+  "viewport":
+    'prefix': 'view'
+    'body': """
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    """
+'.source.php':
+  "viewport":
+    'prefix': 'view'
+    'body': '<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">'
 '.source.js':
   "debugger":
     'prefix': 'deb'
