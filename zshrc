@@ -4,7 +4,7 @@ export ZSH=/Users/weidian123/.oh-my-zsh
 
 ZSH_THEME="cloud"
 
-plugins=(zsh-autosuggestions z git git-extras lein dirhistory httpie tmuxinator)
+plugins=(zsh-autosuggestions z git git-extras lein dirhistory httpie)
 
 # User configuration
 
@@ -39,3 +39,7 @@ bindkey '^T' autosuggest-toggle
 
 www=/Users/weidian123/Documents/workspace/
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+alias math='/Applications/Mathematica.app/Contents/MacOS/MathKernel'
