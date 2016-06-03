@@ -29,6 +29,8 @@ alias aria='aria2c -x10'
 alias gac='git add --all && git commit -v'
 alias rt='trash'
 alias rkt='racket'
+alias bsp='browser-sync start --files "**/*.php" "resources"'
+alias bs='browser-sync start --server --files "*.*"'
 
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
